@@ -19,7 +19,7 @@ const Header = props => {
         backgroundSize: "cover"
       }}
     >
-      <h2>{props.projectName}</h2>
+      <h2 className="project-name">{props.projectName}</h2>
       <div className="slider-buttons">
         <button
           className="buttons-right-left"
